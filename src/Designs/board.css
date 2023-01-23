@@ -1,0 +1,27 @@
+.game-board {
+    width: 42vw;
+    height:40vh;
+    margin: 0 auto;
+    /* background-color: #34495e; */
+    color: #fff;
+    /* border: 6px solid #2c3e50; */
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+    border: 6px solid #314252;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 8rem;
+    display: flex;
+    height:25vh;
+    width:13.3vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #364b61;
+    
+}
